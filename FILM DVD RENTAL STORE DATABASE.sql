@@ -10,7 +10,7 @@ CREATE TABLE category
 
 CREATE TABLE film_category
 (
-	film_id SMALLINT(5),
+    film_id SMALLINT(5),
     category_id TINYINT(3),
     last_update TIMESTAMP,
     PRIMARY KEY(film_id, category_id),
